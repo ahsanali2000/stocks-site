@@ -1,0 +1,11 @@
+tensorflow
+keras
+numpy
+sklearn
+pandas
+beautifulsoup4
+lxml
+requests
+pytz
+mysql-connector
+flask-cors
