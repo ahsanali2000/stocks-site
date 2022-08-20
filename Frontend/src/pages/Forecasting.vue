@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" style="background:#003366">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-6">
@@ -11,7 +11,7 @@
       </div>
       <div class="row justify-content-center m-3">
         <div class="col-4 text-center">
-          <b-button v-if="!!companyName" class="btn" v-on:click="pressed()">Get Forecast</b-button>
+          <b-button v-if="!!companyName" class="btn" style="background:#FFCC00; color: #003366; border:2px solid white" v-on:click="pressed()">Get Forecast</b-button>
         </div>
       </div>
 
@@ -28,9 +28,10 @@
         <div class="col-12">
           <card class="strpied-tabled-with-hover"
                 body-classes="table-full-width table-responsive"
+                style="background:#FFCC00"
           >
             <template slot="header">
-              <h4 class="card-title">Stocks Prediction</h4>
+              <h4 class="card-title text-center m-2" style="font-weight: bold; font-size: 200%; color :#003366" >Stocks Prediction</h4>
             </template>
             <l-table class="table-hover table-striped"
                      :columns="['Company_Name', 'Prediction']"

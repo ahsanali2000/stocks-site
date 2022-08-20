@@ -1,12 +1,13 @@
 <template>
-  <div class="container mt-5 mb-5">
+  <div class="content" style="background:#003366">
+  <div class="container mt-5 mb-5" >
     
     <div class="col-12 justify-content-center text-center mb-5">
-        <h1 style="font-weight: bold; color :gray">Meet Our Team</h1>
+        <h1 style="font-weight: bold; color :#FFCC00">Meet Our Team</h1>
     </div>
     <div class="row g-2 mb-5">
         <div class="col-md-4">
-            <div class="card p-3 text-center px-4">
+            <div class="card p-3 text-center px-4" style="background:#FFCC00">
                 <div class="user-image">
                     <img src="img/1.png" class="rounded-circle" width="80">
                 </div>
@@ -18,7 +19,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card p-3 text-center px-4">
+            <div class="card p-3 text-center px-4" style="background:#FFCC00">
                 <div class="user-image">
                     <img src="img/2.png" class="rounded-circle" width="80">
                 </div>
@@ -30,7 +31,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card p-3 text-center px-4">
+            <div class="card p-3 text-center px-4" style="background:#FFCC00">
                 <div class="user-image">
                     <img src="img/3.png" class="rounded-circle" width="80">
                 </div>
@@ -45,6 +46,7 @@
         
     </div>
     
+</div>
 </div>
 </template>
 
